@@ -9,4 +9,4 @@ if __name__ == '__main__':
   # create the db's
   db.create_all(app = app)
   # runs the app
-  app.run(host="localhost",port=8080,debug = True)
+  app.run(host="localhost",port=5000,debug = True)
